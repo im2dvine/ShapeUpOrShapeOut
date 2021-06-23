@@ -1,0 +1,40 @@
+body {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    background-color: purple;
+}
+
+  #input-container {
+    padding-top: 1em;
+    width: 95%;
+    background-color: lavender;
+    color: purple;
+    padding-bottom: 2em;
+    border: 2px solid plum;
+    margin-bottom: 2em;
+  }
+
+  #content-container {
+    width: 90%;
+    background-color:lavender;
+    border: 2px solid plum;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  #shape-container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border: 2px solid plum;
+  }
+
+  #data-container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    background-color: lavender;
+    color: purple;
+    border: 2px solid plum;
+  } 
