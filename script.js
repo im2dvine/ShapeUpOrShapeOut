@@ -104,7 +104,7 @@ class Circle extends Shape {
     constructor(radius) {
         super();
         this.name = "Circle";
-        this.color = "gold";
+        this.color = "purple";
         this.width = radius * 2;
         this.height = radius * 2;
         this.radius = radius;
@@ -126,7 +126,7 @@ class Circle extends Shape {
     style() {
         $(this.div).css({
             "position": "absolute",
-            "background-color": "gold",
+            "background-color": "purple",
             "width": this.width + "px",
             "height": this.height + "px",
             "left": this.x,
@@ -143,7 +143,7 @@ class Triangle extends Shape {
     constructor(height) {
         super();
         this.name = "Triangle";
-        this.color = "purple";
+        this.color = "yellow";
         this.width = height;
         this.height = height;
         this.radius = "N/A";
@@ -169,7 +169,7 @@ class Triangle extends Shape {
             "height": 0 + "px",
             "left": this.x,
             "top": this.y,
-            "border-bottom": this.width + "px solid purple",
+            "border-bottom": this.width + "px solid yellow",
             "border-right": this.width + "px solid transparent",
         });
     }
